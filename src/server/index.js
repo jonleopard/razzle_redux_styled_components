@@ -64,6 +64,8 @@ server
           ${process.env.NODE_ENV === 'production'
             ? `<script src="${assets.client.js}" defer></script>`
             : `<script src="${assets.client.js}" defer crossorigin></script>`}
+     <!-- Render the style tags gathered from the components into the DOM -->
+    ${styleTags}
     </head>
     <body>
         <div id="root">${markup}</div>
