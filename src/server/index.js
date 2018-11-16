@@ -34,7 +34,7 @@ server
 
       // When the app is rendered collect the
       // styles that are used inside it
-      //const cssmarkup = renderToString(sheet.collectStyles(<App />));
+      // const cssmarkup = renderToString(sheet.collectStyles(<App />));
 
       // Generate all the style tags so they can be rendered into the page
       const styleTags = sheet.getStyleTags();
